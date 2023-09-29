@@ -1,0 +1,17 @@
+<script>
+    var a = parseInt(prompt("Enter the year: "));
+    if(a%4 == 0){
+        if(a%400 == 0){
+            document.write("The year is LEAP YEAR.");
+        }
+        else if((a%100 ==0) && (a%400 != 0)){
+            document.write("The year is not LEAP YEAR.");
+        }
+        else {
+            document.write("The year is a LEAP YEAR.");
+        }
+    }
+    else{
+        document.write("The year is not LEAP YEAR.");
+    }
+</script>

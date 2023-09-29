@@ -1,0 +1,10 @@
+<script>
+    var sum = 0;
+    var num = parseInt(prompt("Enter a number: "));
+    var temp = num;
+    do{
+        sum += parseInt(temp%10);
+        temp = parseInt(temp/10);
+    }while(temp>0);
+    document.write("sum of digits of " + num + " is " + sum);
+</script>
