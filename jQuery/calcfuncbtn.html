@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>Clickevent</title>
+
+    </head>
+    <body>
+    <center>
+        <table border="4">
+            <tr>
+                <th>Number1</th>
+                <td><input type="text" name="" id="num1"></td>
+            </tr>
+
+            <tr>
+                <th>Number 2</th>
+                <td><input type="text" name="" id="num2"></td>
+            </tr>
+            
+            <tr>
+                <th>Choose Operation</th>
+                <td>
+                    <select name="dropdown" id="choice">
+                        <option value="1">Sum</option>
+                        <option value="2">Difference</option>
+                        <option value="3">Product</option>
+                        <option value="4">Division</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td><input type="button" value="CLICK" id="btn"></td>
+            </tr>
+
+            <tr>
+                <th>Result</th>
+                <td><input type="text" id="result" readonly></td>
+            </tr>
+        </table>
+    </center>        
+    </body>
+</html>
+
+<script src="jquery.js"></script>
+<script>
+    
+    function sum(num1, num2){
+        $("#result").val(num1+num2);
+    }
+    function subtract(num1, num2){
+        $("#result").val(num1-num2);
+    }
+    function product(num1, num2){
+        
+        $("#result").val(num1*num2);
+    }
+    function division(num1,num2){
+        $("#result").val(num1/num2);
+    }
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            var num1 = parseInt($("#num1").val());
+            var num2 = parseInt($("#num2").val());
+            var choice = parseInt($("#choice").val());
+            if(choice == 1)
+            {   
+                alert();
+                sum(num1, num2);
+            }
+            else if(choice == 2){
+                subtract(num1, num2);
+            }
+            else if(choice == 3){
+                product(num1, num2);
+            }
+            else if(choice == 4){
+                division(num1, num2);
+            }
+        });
+    });
+</script>
+<script src="jquery.js"></script>
+
+<script>
+function add(a,b)
+{
+$("#num3").val(a+b);
+}
+function sub(a,b)
+{
+$("#num3").val(a-b);
+}
+
+function mul(a,b)
+{
+$("#num3").val(a*b);
+}
+
+function div(a,b)
+{
+$("#num3").val(a/b);
+}
+$("document").ready(function(){
+$("#btn").click(function(){
+var a=parseInt($("#num1").val());
+var b=parseInt($("#num2").val());
+var c=parseInt($("#choice").val());
+if(c==1)
+add(a,b);
+else if(c==2)
+sub(a,b);
+else if(c==3)
+mul(a,b);
+else if(c==4)
+div(a,b);
+else
+$("#num3").val("wrong choice");
+
+
+});
+
+});
+
+
+</script>

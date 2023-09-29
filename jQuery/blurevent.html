@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>KVCH Noida</title>
+</head>
+<body>
+<center>
+<table border=4>
+<tr>
+<th>Number 1</th>
+<td><input type="text" id="n1" /></td>
+</tr>
+<tr>
+<th>Number 2</th>
+<td><input type="text" id="n2" /></td>
+</tr>
+
+<tr>
+<th>Result</th>
+<td><input type="text" id="n3" readonly /><br>
+
+
+
+</td>
+</tr>
+</table>
+</center>
+
+</body>
+</html>
+<script src="jquery.js"></script>
+<script>
+$("document").ready(function(){
+$("#n2").blur(function(){
+var a=parseInt($("#n1").val());
+var b=parseInt($("#n2").val());
+var c=a+b;
+$("#n3").val(c);
+
+});
+});
+</script>

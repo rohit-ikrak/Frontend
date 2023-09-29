@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Clickevent</title>
+
+    </head>
+    <body>
+    <center>
+        <table border="4">
+            <tr>
+                <th>Number1</th>
+                <td><input type="text" name="" id="n1"></td>
+            </tr>
+            <tr>
+                <th>Number2</th>
+                <td><input type="text" id="n2"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="button" value="CLICK" id="btn"></td>
+            </tr>
+            <tr>
+                <th>Result</th>
+                <td><input type="text" id="n3" readonly></td>
+            </tr>
+        </table>
+    </center>        
+    </body>
+</html>
+
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#btn").dblclick(function(){
+            var a = parseInt($("#n1").val());
+            var b = parseInt($("#n2").val());
+            var c = a+b;
+            // alert("Sum = " + c);
+            $("#n3").val(c);
+
+            $("#r1").text("Result")
+        });
+    });
+</script>

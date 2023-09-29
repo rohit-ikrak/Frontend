@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Clickevent</title>
+
+    </head>
+    <body>
+    <center>
+        <table border="4">
+            <tr>
+                <th>Number</th>
+                <td><input type="text" name="" id="num"></td>
+            </tr>
+            
+            <tr>
+                <th></th>
+                <td><input type="button" value="CLICK" id="btn"></td>
+            </tr>
+
+            <tr>
+                <th>Palindrome</th>
+                <td><input type="text" id="result" readonly></td>
+            </tr>
+        </table>
+    </center>        
+    </body>
+</html>
+
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            var num = parseInt($("#num").val());
+            var rev = 0, temp = num;
+            var rem = 0;
+            while(num>0){
+                rem = num%10;
+                rev = rev*10 + rem;
+                num = parseInt(num/10);
+            }
+            if(rev == temp){
+            $("#result").val("Yes");
+            }
+            else{
+            $("#result").val("No");
+            }
+        });
+    });
+</script>
