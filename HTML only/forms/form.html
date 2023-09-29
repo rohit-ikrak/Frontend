@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>new page</title>
+    </head>
+    <body bgcolor="pink" text="black">
+        <center>
+            <h1>Forms and Different Input Types</h1>
+            <br>
+            <form action="a.html" method="post">
+                <table border="5" bordercolor="white">
+                    <tr bgcolor="yellow">
+                        <th>Name</th>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>E-Mail</th>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>Password</th>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>Number</th>
+                        <td><input type="number" name="number" required></td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>Date</th>
+                        <td><input type="date" name="date" required></td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>Radio Button</th>
+                        <td><input type="radio" name="gender" value="male" checked> MALE
+                            <br>
+                        <input type="radio" name="gender" value="female"> FEMALE
+                            <br>
+                        <input type="radio" name="gender" value="other"> OTHER</td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>CheckBox</th>
+                        <td>
+                            <input type="checkbox" value="java">Java
+                            <br>
+                            <input type="checkbox" value="python">Python
+                            <br>
+                            <input type="checkbox" value="javascript">JavaScript
+                        </td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>Dropdown List</th>
+                        <td>
+                            <select name="dropdown">
+                                <option value="1">JAVA</option>
+                                <option value="2">PYTHON</option>
+                                <option value="3">JAVASCRIPT</option>
+                                <option value="4">C++</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th>Text Area</th>
+                        <td>
+                            <textarea name="textarea"  cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr bgcolor="yellow">
+                        <th></th>
+                        <td><input type="submit" value="Click using "></td>
+                    </tr>
+                </table>
+                <input type="button" value="Submit this information Button" onclick="a.html">
+            </form>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+head:
+title-----><title>New page</title>
+style-----><style> body{color:white; background-color:black}</style>
+
+body:
+br/-----> line break tag
+p-------> paragraph tag
+pre-----> 
+font----><font size=7 color="red" face="cooper"> Hello Kvch.</font><br/>
