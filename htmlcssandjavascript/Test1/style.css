@@ -1,0 +1,93 @@
+#header {
+    background-color: rgb(160, 217, 227);
+    height: 10%;
+    width: 100%;
+    color: rgb(3, 3, 138);
+    font-size: 44px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#content{
+    height: 83%;
+    width: 100%;
+    color: red;
+}
+
+#footer {
+    background-color: rgb(160, 217, 227);
+    height: 7%;
+    width: 100%;
+    color: rgb(157, 12, 12);
+    font-size: 20px;
+    text-align: center;
+}
+
+#left {
+    background-color: blueviolet;
+    height: 100%;
+    width: 30%;
+    font-size: 16px;
+    float: left;
+}
+
+#right {
+    background-color: violet;
+    height: 100%;
+    width: 70%;
+    float: right;
+    color: aqua;
+}
+
+#loginbar {
+    background-color: rgb(200, 227, 218);
+    width: 50%;
+    padding: 10px;
+    margin:30px;
+    border: 10px solid rgb(51, 37, 179);
+}
+#loginbar legend {
+    background-color: rgb(214, 204, 216);
+    margin : 1px 1px 1px 1px ;
+    font-size: 30px;
+    border: 0.5px solid black;
+}
+
+#loginbar table {
+    font-size: 20px;
+    background-color: rgb(235, 235, 206);
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+#loginbar table tr th{
+    background-color: azure;
+    margin: 4px;
+    padding: 3px;
+}
+
+#loginbar table tr td{
+    background-color: rgba(246, 238, 209, 0.693);
+    margin: 4px;
+    padding: 3px;
+}
+
+#menubar {
+    list-style-type: none;
+    background-color: rgb(107, 107, 199);
+    text-align: center;
+}
+
+#menubar li {
+    display: inline;
+    margin: 15px;
+    background-color: rgb(155, 216, 204);
+    padding: 10px;
+}
+
+#menubar li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: solid;
+}
