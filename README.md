@@ -1,2 +1,2 @@
 # Frontend
-frontend training in KVCH.
+frontend and backend training in KVCH.
