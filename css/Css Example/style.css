@@ -1,0 +1,24 @@
+p{
+    background-color: aliceblue;
+    color: red;
+}
+
+h1{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+h2 {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.class{
+    background-color: cadetblue;
+    color: black;
+}
+
+#id {
+    background-color: rgb(237, 227, 227);
+    color: navy;
+}

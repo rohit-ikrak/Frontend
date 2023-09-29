@@ -1,0 +1,42 @@
+#header{
+    background-color: black;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+    height: 25%;
+    width: 100%;
+}
+
+#content{
+    height: 70%;
+    width: 100%;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    height: 5%;
+    width: 100%;    
+}
+
+#menubar{
+    list-style-type:none;
+    background-color: black;
+    text-align: center;
+}
+
+#menubar li{
+    display: inline;
+    margin: 20px;
+    background-color: pink;
+    padding: 6px;
+}
+
+#menubar li a{
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: none;
+}
